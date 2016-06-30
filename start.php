@@ -3,7 +3,7 @@
 
 /*
  * rc.local：
- *   cd /home/pi/scripts && php start.sh > /dev/null 2>&1 &
+ *   cd /home/pi/scripts && php start.php > /dev/null 2>&1 &
  */
 
 $setmode27 = shell_exec("gpio -g mode 27 in");
