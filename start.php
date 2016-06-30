@@ -1,6 +1,11 @@
 #!/usr/bin/env php
 <?php
 
+/*
+ * rc.local：
+ *   cd /home/pi/scripts && php start.sh > /dev/null 2>&1 &
+ */
+
 $setmode27 = shell_exec("gpio -g mode 27 in");
 //$setmode17 = shell_exec("gpio -g mode 17 out");
 
