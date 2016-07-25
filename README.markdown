@@ -1,5 +1,3 @@
-# Fast Change Dir #
-
 author: gisanfu
 
 ## 這是什麼東西?
